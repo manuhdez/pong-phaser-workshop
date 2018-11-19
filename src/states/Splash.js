@@ -13,7 +13,13 @@ export default class extends Phaser.State {
     //
     // load your assets
     //
-    this.load.image('mushroom', 'assets/images/mushroom2.png')
+    this.load.image('ball', 'assets/images/fancy-ball.png')
+    this.load.image('paddleBlue', 'assets/images/fancy-paddle-blue.png')
+    this.load.image('paddleGreen', 'assets/images/fancy-paddle-green.png')
+    this.load.image('gameBG', 'assets/images/fancy-court.png')
+    this.load.audio('bgSound', 'assets/sounds/bg-sound.mp3')
+    this.load.audio('pop', 'assets/sounds/pop.mp3')
+    this.load.audio('score', 'assets/sounds/siuuu.mp3')
   }
 
   create () {
